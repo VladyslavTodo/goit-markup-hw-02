@@ -21,6 +21,8 @@ body {
   text-decoration: none;
 }
 
+/* =================INDEX================== */
+
 /* COMMON STYLES */
 
 .main-subtitle {
@@ -33,7 +35,7 @@ body {
   text-transform: capitalize;
 }
 
-/*=========== HEADER NAVIGATION =========*/
+/*======= HEADER NAVIGATION ======*/
 
 .nav-logo {
   color: var(--main-color);
@@ -52,6 +54,13 @@ body {
 .nav-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: #404bbf;
 }
 
 .header-contact {
@@ -81,10 +90,13 @@ body {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   color: #ffffff;
+
+  cursor: pointer;
 }
 
-.hero-button:hover {
-  background: var(--secondary-color);
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
 }
 
 /*=========== FEATURES =========*/
@@ -129,4 +141,36 @@ body {
 
 footer > .nav-logo {
   color: #f4f4fd;
+}
+
+/* =================PORTFOLIO================== */
+
+.filter-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.projects-name {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.projects-app {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
