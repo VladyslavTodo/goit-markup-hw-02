@@ -1,0 +1,132 @@
+:root {
+  --main-color: #2e2f42;
+  --secondary-color: #434455;
+}
+
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* COMMON STYLES */
+
+.main-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/*=========== HEADER NAVIGATION =========*/
+
+.nav-logo {
+  color: var(--main-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-logo span {
+  color: #4d5ae5;
+}
+
+.nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-contact {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+/*=========== HERO =========*/
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+  /* BG-COLOR ДЛЯ ВИГЛЯДУ */
+  background-color: #2e2f42;
+}
+
+.hero-button {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: #ffffff;
+}
+
+.hero-button:hover {
+  background: var(--secondary-color);
+}
+
+/*=========== FEATURES =========*/
+
+.item-subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.item-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+/*=========== TEAM =========*/
+
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+}
+
+.team-prof {
+  line-height: 1.5;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+/*=========== FOOTER=========*/
+
+.footer-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+footer > .nav-logo {
+  color: #f4f4fd;
+}
