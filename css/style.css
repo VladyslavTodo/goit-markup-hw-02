@@ -26,6 +26,7 @@ body {
 /* COMMON STYLES */
 
 .main-subtitle {
+  color: var(--main-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
@@ -63,7 +64,7 @@ body {
   color: #404bbf;
 }
 
-.header-contact {
+.contact-link {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
