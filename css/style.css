@@ -177,7 +177,7 @@ footer > .nav-logo {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background-color: #404bbf;
+  background: var(--accent-color);
   color: #ffffff;
 }
 
