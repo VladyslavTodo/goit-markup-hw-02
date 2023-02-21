@@ -169,7 +169,7 @@ footer > .nav-logo {
   text-align: center;
   letter-spacing: 0.04em;
 
-  color: #4d5ae5;
+  color: var(--button-color);
   background-color: #f4f4fd;
 
   cursor: pointer;
@@ -177,7 +177,7 @@ footer > .nav-logo {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background-color: #404bbf;
+  background: var(--accent-color);
   color: #ffffff;
 }
 
