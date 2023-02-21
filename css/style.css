@@ -178,7 +178,7 @@ footer > .nav-logo {
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .projects-name {
